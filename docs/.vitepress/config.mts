@@ -3,36 +3,46 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/2025-1-ty/',
-  title: "My Awesome Project",
+  title: "FabLab-NB 2025",
   description: "A VitePress Site",
+  // 将 head 配置移到顶级位置
+  head: [
+    // 修正 favicon 配置，添加 href 键名
+    ['link', { rel: 'icon', href: 'https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/favicon.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'About', link: '/About/about' },
+      { text: 'Assignments', link: '/assignments/week1' },
+      { text: 'Project', link: '/project' }
     ],
-
     sidebar: [
       {
-        text: 'Get started',
+        text: 'Home',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }, // 确保这里有一个逗号来分隔不同的侧边栏对象
-      {
-        text: 'About',
-        items: [
-          { text: 'About Me', link: 'about/about' },
-          { text: 'Student Agreement', link: '/student-agreement' }
+          { text: 'Home page', link: '/' }
         ]
       },
       {
-        text: 'Assignment',
+        text: 'About',
         items: [
-          { text: 'Week 1', link: '/projectmanage' },
-          { text: 'Week 2', link: '/arduino' },
-          { text: 'Week 3', link: '/PCBmanufacture' }
+          { text: 'About me', link: '/about/about' },
+          { text: 'Student agreement', link: '/about/studentagreement' }
+        ]
+      },
+      {
+        text: 'Assignments',
+        items: Array.from({ length: 18 }, (_, i) => ({
+          text: `Week ${i + 1}`,
+          link: `/assignments/week${i + 1}`
+        }))
+      },
+      {
+        text: 'Project',
+        items: [
+          { text: 'Final project', link: '/project/final-project' }
         ]
       }
     ],

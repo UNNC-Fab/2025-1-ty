@@ -3,23 +3,29 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Welcome to"
+  text: "Yishan's Project !"
+  tagline: This is my documentation for the Fab Academy 2025.
+  image:
+    src: https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/wind-mill-6875_256.gif
+    class: animated-gif
+    alt: for fun
   actions:
     - theme: brand
       text: Start
       link: /about/about
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/UNNC-Fab/2025-1-ty
+    - theme: alt
+      text: View the assignments
+      link: /assignments/week1
+      
+      
+      
+
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
-
+  - title: Copyright 2025 Yishan Tong - Creative Commons Attribution Non Commercial
+    details: This webpage is powered by [VitePress](https://vitepress.vuejs.org/)
+    

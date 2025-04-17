@@ -1,86 +1,11 @@
-# Markdown Extension Examples
+# About 
+**What is the FAB ACADEMY Program?**
+The Fab Academy is a fast paced, hands-on learning experience where students learn rapid-prototyping by planning and executing a new project each week, resulting in a personal portfolio of technical skills.
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
-![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/1319e94aa6c0ec3fe9b33895fab542ba.jpg)
+## About me
+![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/dac375bfd95648e54031dc301b33dba.jpg)
+Hi, I am **Yishan TONG**.
 
-## Syntax Highlighting
+I am currently pursuing the MRes in *Innovative Product Design and Manufacture* at the [University of Nottingham Ningbo China](https://www.nottingham.edu.cn/en/index.aspx), under the Faculty of Mechanical, Materials and Manufacturing Engineering.
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting
-
-**Input**
-
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+My research focuses on human-centered design solutions to alleviate cognitive load, particularly investigating how wearable devices can enhance pedestrian safety and psychological comfort in mixed traffic scenarios.
