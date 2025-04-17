@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/2025-1-ty/',
+  base: '/2025-1-ty/docs/',
   title: "FabLab-NB 2025",
   description: "A VitePress Site",
   // 将 head 配置移到顶级位置
@@ -14,7 +14,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: '/About/about' },
+      { text: 'About', link: '/about/about' },
       { text: 'Assignments', link: '/assignments/week1' },
       { text: 'Project', link: '/project' }
     ],
