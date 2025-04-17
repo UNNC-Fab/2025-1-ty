@@ -116,6 +116,14 @@ export default defineConfig({
 })
 
 ```
+add logo:
+![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250417160923873.png)
+```
+head: [
+  
+    ['link', { rel: 'icon', href: 'https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/favicon.png' }]
+  ],
+```
 The details of the index.md file are as follows:
 ```
 # https://vitepress.dev/reference/default-theme-home-page

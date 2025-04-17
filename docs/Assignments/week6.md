@@ -29,4 +29,7 @@ For practicals, we started with 3D scanning. After setting up the scanner and po
 7. Set the printing parameters, such as printing speed, temperature, layer height, infill rate, etc. After completion, click the print button, connect the printer, and start printing the vase. 
    ![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/cf9b156a00995b9b0b98048a41cd210.jpg)
    ![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/c0d2e1f02995bae96a022e50e916d6c.jpg)
+   ![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250417153643421.png)
    Due to time constraints, when adjusting the model's position and scale in Bambustudio, we didn't manage to complete the printing process for this particular model. 
+![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250417162056956.png)
+follow the design rules

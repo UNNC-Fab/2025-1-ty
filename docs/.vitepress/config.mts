@@ -7,7 +7,7 @@ export default defineConfig({
   description: "A VitePress Site",
   // 将 head 配置移到顶级位置
   head: [
-    // 修正 favicon 配置，添加 href 键名
+  
     ['link', { rel: 'icon', href: 'https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/favicon.png' }]
   ],
   themeConfig: {

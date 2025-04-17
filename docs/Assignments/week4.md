@@ -32,7 +32,7 @@ This week, I explored various CAD design techniques and tools. I completed a ser
   - Applied one plugin to enhance modeling efficiency  
   - Created engineering drawing of one key component  
   - Explored Fusion360's timeline and design history features
-### B. Fusion360 Modeling Steps - Mouse Example
+### B. Fusion360 Modeling Steps - Mouse1 Example
  
  - Started by importing or sketching the **top and side profiles** of the mouse.
  ![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250408022100120.png)
@@ -56,8 +56,12 @@ This week, I explored various CAD design techniques and tools. I completed a ser
   - Used **Cut** to split the body into **two separate solid parts**, representing the left and right shells of the mouse.
   ![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250408032539987.png)
 ![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250408033004253.png)  
-
----
+### c. Fusion360 Modeling Steps - Mouse2 Example
+- Mainly focused on 
+![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250417155523895.png)
+![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250417155550678.png)
+![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250417155624039.png)
+![](https://unncfab.oss-cn-hangzhou.aliyuncs.com/img/tong/20250417155706690.png)
 
 ## 3. SolidWorks
 
